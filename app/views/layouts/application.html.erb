@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NoDbSauce</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application.html.erb', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application.html.erb', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="application.css">
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

@@ -1,11 +1,11 @@
 #!/bin/sh
 
-if [ -z "$COURIER_ENV" ]; then
-echo You need to pass in COURIER_ENV
-exit 1
-else
-bundle exec parallel_rspec spec/services/${COURIER_ENV}
-fi
+#if [ -z "$COURIER_ENV" ]; then
+#echo You need to pass in COURIER_ENV
+#exit 1
+#else
+#bundle exec parallel_rspec spec/services/${COURIER_ENV}
+#fi
 
 #if [ $# -ne 0 ]; then
 
